@@ -1,0 +1,30 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  background-color: #473fbb;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Card h3 {
+  padding: 10px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 15px;
+}
+.Card p {
+  margin-top: 15px;
+}
+
+.Card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}

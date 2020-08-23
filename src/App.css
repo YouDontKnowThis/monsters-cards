@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  padding: 3rem;
+}
+
+h1 {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: #473fbb;
+  font-size: 65px;
+  padding: 20px 0;
+}
